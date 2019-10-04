@@ -341,3 +341,4 @@ healthchecksdb
 
 # CMake Output Folders
 HelloWorld/out
+UserInput/out

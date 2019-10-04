@@ -4,6 +4,7 @@ using namespace std;
 
 int main()
 {
-	cout << "Hello CMake." << endl;
+	cout << "Hello World\n";
+	cout << "C++ is a programming language.\n";
 	return 0;
 }
