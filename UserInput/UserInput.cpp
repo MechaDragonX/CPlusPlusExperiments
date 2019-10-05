@@ -8,8 +8,7 @@ int main()
 	string input;
 	cout << "Type a word: ";
 	cin >> input;
-	cout << input;
-	for (int i = 0; i < input.length; i++)
+	for (int i = 0; i < input.length(); i++)
 	{
 		if (input[i] == 'a' || input[i] == 'A')
 		{
