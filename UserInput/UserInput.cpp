@@ -8,9 +8,9 @@ int main()
 	string input;
 	cout << "Type a word: ";
 	cin >> input;
-	for (int i = 0; i < input.length(); i++)
+	for(int i = 0; i < input.length(); i++)
 	{
-		if (input[i] == 'a' || input[i] == 'A')
+		if(input[i] == 'a' || input[i] == 'A')
 		{
 			cout << input << " has an 'a'!";
 			break;
