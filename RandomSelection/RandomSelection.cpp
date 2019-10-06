@@ -15,7 +15,7 @@ int main()
 int select()
 {
 	srand(time(NULL));
-	int random = rand() % 8;
+	int random = rand() % 9;
 	return random;
 }
 void out(int random)
@@ -34,6 +34,9 @@ void out(int random)
 		break;
 	case Theme::Discover:
 		cout << "\"Discover\"";
+		break;
+	case Theme::Character:
+		cout << "\"Character Development\"";
 		break;
 	case Theme::Resources:
 		cout << "\"Resources\"";
